@@ -8,7 +8,7 @@ const faqs = [
   },
   {
     q: 'What do I actually get access to?',
-    a: 'Core members get all training playbooks covering Meta Ads, Email, Shopify, Branding, Google Ads, Content, and more. You also get two weekly group coaching calls with in-house experts (one implementation Q&A, one strategic workshop), the community platform, and a growing tools library. Pro members add monthly 1-on-1 coaching and a custom growth roadmap.',
+    a: 'Bloom members get all training playbooks covering Meta Ads, Email, Shopify, Branding, Google Ads, Content, and more. You also get two weekly group coaching calls with in-house experts (one implementation Q&A, one strategic workshop), the community platform, and a growing tools library. Pro members add monthly 1-on-1 coaching and a custom growth roadmap.',
   },
   {
     q: 'How is this different from just watching YouTube or buying a course?',
@@ -27,8 +27,8 @@ const faqs = [
     a: 'Three-day grace period: cancel for any reason in the first 3 days, full refund. Sixty-day do-the-work guarantee: if you attend at least 4 calls, complete your action steps, and still don\'t see results — we\'ll refund you. Hardship pause: if you or an immediate family member faces a major medical or financial hardship, we\'ll pause your membership for up to 3 months.',
   },
   {
-    q: 'What\'s the difference between Core and Pro?',
-    a: 'Core is self-directed with full community and group call access — you learn, you implement, you grow. Pro adds a dedicated 1-on-1 coach who builds your personalized growth roadmap in week one, meets with you monthly, and is available for async questions. Pro is best for brands doing $30k+ who want individual attention on top of the program.',
+    q: 'What\'s the difference between Bloom and Pro?',
+    a: 'Bloom is self-directed with full community and group call access — you learn, you implement, you grow. Pro adds a dedicated 1-on-1 coach who builds your personalized growth roadmap in week one, meets with you monthly, and is available for async questions. Pro is best for brands doing $30k+ who want individual attention on top of the program.',
   },
   {
     q: 'Do I need a big ad budget?',
