@@ -11,14 +11,15 @@ export default function Footer() {
             <p className="body-sm mb-4" style={{ color: 'rgba(255,255,255,0.4)', maxWidth: '280px' }}>
               Helping Shopify founders scale their stores, reclaim their time, and build lasting wealth — since 2014.
             </p>
-            <p className="body-sm font-semibold" style={{ color: '#525B46' }}>$720M+ in client revenue generated.</p>
+            <p className="body-sm mb-1" style={{ color: 'rgba(255,255,255,0.3)' }}>Homer, Alaska</p>
+            <p className="body-sm font-semibold" style={{ color: '#7B897C' }}>$720M+ in client revenue generated.</p>
           </div>
           <div>
-            <p className="eyebrow mb-5" style={{ color: '#525B46' }}>Program</p>
+            <p className="eyebrow mb-5" style={{ color: '#7B897C' }}>Program</p>
             <ul className="space-y-3">
               {[
                 ['How It Works', '#how-it-works'],
-                ['Bloom Core', '#bloom'],
+                ['Bloom', '#bloom'],
                 ['Bloom Pro', '#bloom'],
                 ['Client Results', '#results'],
                 ['About Us', '#about'],
@@ -31,7 +32,7 @@ export default function Footer() {
             </ul>
           </div>
           <div>
-            <p className="eyebrow mb-5" style={{ color: '#525B46' }}>Free Resources</p>
+            <p className="eyebrow mb-5" style={{ color: '#7B897C' }}>Free Resources</p>
             <ul className="space-y-3">
               {[
                 ['Free Masterclass', '#masterclass'],

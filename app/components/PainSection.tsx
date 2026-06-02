@@ -37,7 +37,7 @@ export default function PainSection() {
               <div className="absolute bottom-5 right-5 bg-white rounded-xl px-4 py-3 shadow-md"
                 style={{ border: '1px solid rgba(82,91,70,0.1)' }}>
                 <div className="body-sm font-semibold text-near-black">11 Years in Business</div>
-                <div className="body-sm text-gray-400">Anchorage, Alaska</div>
+                <div className="body-sm text-gray-400">Homer, Alaska</div>
               </div>
             </div>
           </div>

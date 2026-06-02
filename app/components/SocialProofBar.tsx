@@ -24,8 +24,8 @@ export default function SocialProofBar() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {stats.map((s, i) => (
               <div key={i} className="text-center">
-                <div className="stat-num text-white mb-1">{s.num}</div>
-                <div className="eyebrow text-sage-lt" style={{ color: '#C9CBC3' }}>{s.label}</div>
+                <div className="stat-num mb-1" style={{ color: '#ffffff' }}>{s.num}</div>
+                <div className="eyebrow" style={{ color: '#C9CBC3' }}>{s.label}</div>
               </div>
             ))}
           </div>
@@ -35,12 +35,12 @@ export default function SocialProofBar() {
       {/* Press */}
       <section className="bg-cream-dark py-8 border-y" style={{ borderColor: 'rgba(82,91,70,0.1)', background: '#EDE8E2' }}>
         <div className="container">
-          <p className="eyebrow text-center mb-6" style={{ color: '#C9CBC3' }}>As Seen In</p>
+          <p className="eyebrow text-center mb-6" style={{ color: '#7B897C' }}>As Seen In</p>
           <div className="overflow-hidden">
             <div className="flex items-center gap-16 whitespace-nowrap marquee">
               {[...pressLogos, ...pressLogos].map((logo, i) => (
                 <img key={i} src={logo.src} alt={logo.alt}
-                  style={{ height: logo.h, opacity: 0.4, filter: 'brightness(0)', flexShrink: 0 }} />
+                  style={{ height: logo.h, opacity: 0.6, flexShrink: 0 }} />
               ))}
             </div>
           </div>

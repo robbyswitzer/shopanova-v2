@@ -16,7 +16,7 @@ export default function About() {
             </h2>
 
             <p className="body-lg text-gray-600 mb-5">
-              Robby Switzer and Daniel Stafford started Shopanova 11 years ago in Anchorage, Alaska. What began as a hands-on marketing operation grew into something much bigger — a community and education platform built to give every Shopify founder access to the same strategies that helped us generate $720M+ in client revenue.
+              Robby Switzer and Daniel Stafford started Shopanova 11 years ago in Homer, Alaska. What began as a hands-on marketing operation grew into something much bigger — a community and education platform built to give every Shopify founder access to the same strategies that helped us generate $720M+ in client revenue.
             </p>
 
             <p className="body-md text-gray-500 mb-5">
@@ -31,12 +31,12 @@ export default function About() {
             <div className="flex items-center gap-10">
               <div>
                 <img src={IMG.robby_autograph} alt="Robby's signature"
-                  style={{ height: 40, filter: 'brightness(0)', opacity: 0.6 }} />
+                  style={{ height: 40, opacity: 0.7 }} />
                 <p className="body-sm text-gray-400 mt-1">Robby Switzer</p>
               </div>
               <div>
                 <img src={IMG.daniel_autograph} alt="Daniel's signature"
-                  style={{ height: 40, filter: 'brightness(0)', opacity: 0.6 }} />
+                  style={{ height: 40, opacity: 0.7 }} />
                 <p className="body-sm text-gray-400 mt-1">Daniel Stafford</p>
               </div>
             </div>

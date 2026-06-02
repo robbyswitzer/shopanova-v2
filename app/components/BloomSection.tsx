@@ -8,7 +8,7 @@ const coreIncludes = [
 ]
 
 const proIncludes = [
-  'Everything in Bloom Core',
+  'Everything in Bloom',
   'Monthly 1-on-1 coaching call with a dedicated Shopanova growth coach',
   'Custom growth roadmap built for your specific store in week one',
   'Priority async DM access to your coach between calls',
@@ -56,7 +56,7 @@ export default function BloomSection() {
           {/* Core */}
           <div className="card p-8 reveal">
             <div className="eyebrow mb-3">Most Popular</div>
-            <h3 className="h3 text-near-black mb-2">Bloom Core</h3>
+            <h3 className="h3 text-near-black mb-2">Bloom</h3>
             <p className="body-sm text-gray-500 mb-4">
               Self-directed. Expert-supported. Community-powered. For founders doing $5k–$50k/month who are ready to learn and implement the right system.
             </p>
@@ -78,7 +78,7 @@ export default function BloomSection() {
               ))}
             </ul>
             <a href="https://shopanova.co/join" className="btn btn-forest w-full justify-center">
-              Join Bloom Core — $497/mo →
+              Join Bloom — $497/mo →
             </a>
             <p className="body-sm text-center text-gray-400 mt-3">3-day grace period · 60-day guarantee</p>
           </div>
