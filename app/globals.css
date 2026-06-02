@@ -1,15 +1,12 @@
-/* Articulat CF — hosted on bloomgrowthgroup.com */
-@font-face { font-family: 'Articulat CF'; src: url('https://bloomgrowthgroup.com/cdn/shop/files/Articulat_CF_Normal.otf?v=1721058589') format('opentype'); font-weight: 400; font-style: normal; font-display: swap; }
-@font-face { font-family: 'Articulat CF'; src: url('https://bloomgrowthgroup.com/cdn/shop/files/Articulat_CF_Medium.otf?v=1721058590') format('opentype'); font-weight: 500; font-style: normal; font-display: swap; }
-@font-face { font-family: 'Articulat CF'; src: url('https://bloomgrowthgroup.com/cdn/shop/files/Articulat_CF_Demi_Bold.otf?v=1721058590') format('opentype'); font-weight: 600; font-style: normal; font-display: swap; }
-@font-face { font-family: 'Articulat CF'; src: url('https://bloomgrowthgroup.com/cdn/shop/files/Articulat_CF_Bold.otf?v=1721058589') format('opentype'); font-weight: 700; font-style: normal; font-display: swap; }
-@font-face { font-family: 'Articulat CF'; src: url('https://bloomgrowthgroup.com/cdn/shop/files/Articulat_CF_Extra_Bold.otf?v=1721058589') format('opentype'); font-weight: 800; font-style: normal; font-display: swap; }
-@font-face { font-family: 'Articulat CF'; src: url('https://bloomgrowthgroup.com/cdn/shop/files/Articulat_CF_Heavy.otf?v=1721058590') format('opentype'); font-weight: 900; font-style: normal; font-display: swap; }
-/* Inter — hosted on bloomgrowthgroup.com */
-@font-face { font-family: 'Inter'; src: url('https://bloomgrowthgroup.com/cdn/shop/files/Inter-ExtraLight.ttf?v=1721058613') format('truetype'); font-weight: 200; font-style: normal; font-display: swap; }
-@font-face { font-family: 'Inter'; src: url('https://bloomgrowthgroup.com/cdn/shop/files/Inter-Medium.ttf?v=1721058613') format('truetype'); font-weight: 500; font-style: normal; font-display: swap; }
-@font-face { font-family: 'Inter'; src: url('https://bloomgrowthgroup.com/cdn/shop/files/Inter-SemiBold.ttf?v=1721058613') format('truetype'); font-weight: 600; font-style: normal; font-display: swap; }
-@font-face { font-family: 'Inter'; src: url('https://bloomgrowthgroup.com/cdn/shop/files/Inter-Bold.ttf?v=1721058613') format('truetype'); font-weight: 700; font-style: normal; font-display: swap; }
+/* Articulat CF — self-hosted */
+@font-face { font-family: 'Articulat CF'; src: url('/fonts/Articulat_CF_Normal.otf') format('opentype'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Articulat CF'; src: url('/fonts/Articulat_CF_Medium.otf') format('opentype'); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Articulat CF'; src: url('/fonts/Articulat_CF_Demi_Bold.otf') format('opentype'); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Articulat CF'; src: url('/fonts/Articulat_CF_Bold.otf') format('opentype'); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Articulat CF'; src: url('/fonts/Articulat_CF_Extra_Bold.otf') format('opentype'); font-weight: 800; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Articulat CF'; src: url('/fonts/Articulat_CF_Heavy.otf') format('opentype'); font-weight: 900; font-style: normal; font-display: swap; }
+/* Inter — via Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
