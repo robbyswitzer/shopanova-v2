@@ -31,12 +31,12 @@ export default function About() {
             <div className="flex items-center gap-10">
               <div>
                 <img src={IMG.robby_autograph} alt="Robby's signature"
-                  style={{ height: 40, opacity: 0.85, mixBlendMode: 'multiply' }} />
+                  style={{ height: 40, opacity: 0.85 }} />
                 <p className="body-sm text-gray-400 mt-1">Robby Switzer</p>
               </div>
               <div>
                 <img src={IMG.daniel_autograph} alt="Daniel's signature"
-                  style={{ height: 40, opacity: 0.85, mixBlendMode: 'multiply' }} />
+                  style={{ height: 40, opacity: 0.85 }} />
                 <p className="body-sm text-gray-400 mt-1">Daniel Stafford</p>
               </div>
             </div>
