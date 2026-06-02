@@ -1,0 +1,51 @@
+import { IMG } from '../images'
+
+const stats = [
+  { num: '$720M+', label: 'Client Revenue Generated' },
+  { num: '600+', label: 'Brands Served' },
+  { num: '21', label: 'eComm Niches' },
+  { num: '11 Yrs', label: 'In Business' },
+]
+
+const pressLogos = [
+  { src: IMG.yahoo_finance, alt: 'Yahoo Finance', h: 28 },
+  { src: IMG.digital_journal, alt: 'Digital Journal', h: 22 },
+  { src: IMG.entrepreneur, alt: 'Entrepreneur', h: 24 },
+  { src: IMG.nbc, alt: 'NBC', h: 32 },
+  { src: IMG.bloomberg, alt: 'Bloomberg', h: 22 },
+]
+
+export default function SocialProofBar() {
+  return (
+    <>
+      {/* Stats row */}
+      <section className="bg-near-black py-12">
+        <div className="container">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+            {stats.map((s, i) => (
+              <div key={i} className="text-center">
+                <div className="stat-num text-white mb-1">{s.num}</div>
+                <div className="eyebrow text-sage-lt" style={{ color: '#C9CBC3' }}>{s.label}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Press */}
+      <section className="bg-cream-dark py-8 border-y" style={{ borderColor: 'rgba(82,91,70,0.1)', background: '#EDE8E2' }}>
+        <div className="container">
+          <p className="eyebrow text-center mb-6" style={{ color: '#C9CBC3' }}>As Seen In</p>
+          <div className="overflow-hidden">
+            <div className="flex items-center gap-16 whitespace-nowrap marquee">
+              {[...pressLogos, ...pressLogos].map((logo, i) => (
+                <img key={i} src={logo.src} alt={logo.alt}
+                  style={{ height: logo.h, opacity: 0.4, filter: 'brightness(0)', flexShrink: 0 }} />
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  )
+}

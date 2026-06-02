@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --cream:      #F8F4F0;
+  --cream-dark: #EDE8E2;
+  --white:      #FFFFFF;
+  --forest:     #525B46;
+  --forest-dk:  #3d4435;
+  --sage:       #7B897C;
+  --sage-lt:    #C9CBC3;
+  --near-black: #1B231B;
+  --border:     rgba(82,91,70,0.12);
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body:    'DM Sans', 'Helvetica Neue', sans-serif;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; font-size: 16px; }
+
+body {
+  font-family: var(--font-body);
+  background: var(--cream);
+  color: var(--near-black);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── Typography ── */
+.h1 { font-family: var(--font-display); font-size: clamp(2.4rem, 5.5vw, 4.2rem); font-weight: 700; line-height: 1.08; letter-spacing: -0.01em; }
+.h2 { font-family: var(--font-display); font-size: clamp(1.9rem, 4vw, 3rem); font-weight: 700; line-height: 1.1; }
+.h3 { font-family: var(--font-display); font-size: clamp(1.3rem, 2.5vw, 1.9rem); font-weight: 600; line-height: 1.2; }
+.h4 { font-family: var(--font-display); font-size: 1.2rem; font-weight: 600; line-height: 1.3; }
+.eyebrow { font-family: var(--font-body); font-size: 0.7rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--forest); }
+.body-lg { font-size: 1.125rem; line-height: 1.75; }
+.body-md { font-size: 1rem; line-height: 1.7; }
+.body-sm { font-size: 0.875rem; line-height: 1.65; }
+
+/* ── Layout ── */
+.container { max-width: 1160px; margin: 0 auto; padding: 0 1.5rem; }
+.section { padding: 6rem 0; }
+.section-sm { padding: 3.5rem 0; }
+
+/* ── Buttons ── */
+.btn {
+  display: inline-flex; align-items: center; gap: 0.5rem;
+  font-family: var(--font-body); font-size: 0.875rem; font-weight: 600;
+  letter-spacing: 0.04em; padding: 0.9rem 2rem; border-radius: 6px;
+  transition: all 0.2s ease; cursor: pointer; text-decoration: none; border: none;
+}
+.btn-forest { background: var(--forest); color: white; }
+.btn-forest:hover { background: var(--forest-dk); transform: translateY(-1px); box-shadow: 0 4px 20px rgba(82,91,70,0.3); }
+.btn-outline { background: transparent; color: var(--forest); border: 1.5px solid var(--forest); }
+.btn-outline:hover { background: var(--forest); color: white; }
+.btn-white { background: white; color: var(--near-black); }
+.btn-white:hover { background: var(--cream); transform: translateY(-1px); }
+.btn-lg { padding: 1.1rem 2.5rem; font-size: 1rem; }
+
+/* ── Cards ── */
+.card { background: white; border: 1px solid var(--border); border-radius: 14px; }
+.card-forest { background: var(--forest); }
+
+/* ── Image masks ── */
+.img-round { border-radius: 14px; overflow: hidden; }
+.img-circle { border-radius: 50%; overflow: hidden; }
+
+/* ── Divider ── */
+.rule { width: 40px; height: 2px; background: var(--sage-lt); border-radius: 2px; }
+
+/* ── Animations ── */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(22px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+.fade-up { animation: fadeUp 0.7s ease forwards; }
+.delay-1 { animation-delay: 0.1s; opacity: 0; }
+.delay-2 { animation-delay: 0.2s; opacity: 0; }
+.delay-3 { animation-delay: 0.3s; opacity: 0; }
+.delay-4 { animation-delay: 0.4s; opacity: 0; }
+.delay-5 { animation-delay: 0.5s; opacity: 0; }
+.marquee  { animation: marquee 30s linear infinite; }
+
+/* ── Scroll reveal ── */
+.reveal { opacity: 0; transform: translateY(18px); transition: opacity 0.65s ease, transform 0.65s ease; }
+.reveal.in { opacity: 1; transform: translateY(0); }
+
+/* ── Testimonial quote ── */
+.quote-mark { font-family: var(--font-display); font-size: 5rem; line-height: 0.6; color: var(--sage-lt); }
+
+/* ── Organic blob shape ── */
+.blob {
+  border-radius: 60% 40% 55% 45% / 50% 60% 40% 50%;
+}
+
+/* ── Nav ── */
+.nav-scrolled { background: rgba(248,244,240,0.95); backdrop-filter: blur(8px); border-bottom: 1px solid var(--border); }
+
+/* ── Guarantee badge ── */
+.guarantee-badge {
+  display: inline-flex; align-items: center; gap: 0.5rem;
+  background: rgba(82,91,70,0.08); border: 1px solid rgba(82,91,70,0.2);
+  border-radius: 100px; padding: 0.4rem 1rem;
+  font-size: 0.8rem; font-weight: 600; color: var(--forest);
+}
+
+/* ── Stat number ── */
+.stat-num { font-family: var(--font-display); font-size: clamp(2rem, 4vw, 3rem); font-weight: 700; color: var(--near-black); }
+
+/* ── Step number ── */
+.step-num { font-family: var(--font-display); font-size: 3rem; font-weight: 700; color: var(--sage-lt); line-height: 1; }
