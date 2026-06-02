@@ -47,7 +47,7 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        <div className="border-t pt-8 flex flex-col md:flex-row justify-between items-center gap-4"
+        <div className="border-t pt-10 mt-4 flex flex-col md:flex-row justify-between items-center gap-4"
           style={{ borderColor: 'rgba(255,255,255,0.07)' }}>
           <p className="body-sm" style={{ color: 'rgba(255,255,255,0.2)' }}>© 2025 Shopanova. All rights reserved.</p>
           <div className="flex gap-6">
