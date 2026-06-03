@@ -4,21 +4,21 @@ const steps = [
   {
     num: '01',
     title: 'Watch the Free Masterclass',
-    body: 'Start with our free training that breaks down the exact Growth Made Simple process we\'ve used to help 600+ brands scale predictably. No fluff, no pitch — just the system.',
+    body: "See the Growth Made Simple System in action and understand exactly how it applies to your store. No cost, no pitch — just the framework.",
     cta: 'Watch Free →',
     href: '#masterclass',
   },
   {
     num: '02',
-    title: 'Join the Bloom Program',
-    body: 'Get instant access to all our training playbooks, weekly group coaching calls with in-house experts, and a community of founders scaling their stores the right way.',
+    title: 'Join Bloom',
+    body: "Get the full system: every playbook, two weekly expert coaching calls, the community, and the tools — for $497/month. Start implementing immediately.",
     cta: 'Join Bloom →',
     href: '#bloom',
   },
   {
     num: '03',
-    title: 'Implement & Scale',
-    body: 'Follow your personalized growth path — watch the relevant playbooks, show up to calls, ask questions, and implement. Founders who do the work see real results.',
+    title: 'Install It & Take Control',
+    body: "Follow your path, get expert help when you're stuck, and watch your store start producing. You're the one driving now — and it's finally working.",
     cta: 'See Results →',
     href: '#results',
   },
@@ -31,15 +31,10 @@ export default function HowItWorks() {
 
         {/* Header */}
         <div className="text-center max-w-2xl mx-auto mb-16 reveal">
-          <div className="eyebrow mb-4">The Process</div>
+          <div className="eyebrow mb-4">HOW IT WORKS</div>
           <h2 className="h2 text-near-black mb-4">
-            Ready to Profitably Scale<br />
-            <span className="italic text-forest">Your Shopify Store?</span>
+            Your Path to a Store That Works
           </h2>
-          <p className="body-lg text-gray-500">
-            We've built the simplest, most effective and predictable process for growing Shopify stores.
-            Here's how it works.
-          </p>
         </div>
 
         {/* Steps */}

@@ -1,17 +1,17 @@
 const coreIncludes = [
-  'Full access to all training playbooks — Meta Ads, Email, Shopify, Branding, Google Ads, Content & more',
-  'Weekly Implementation Call — live Q&A with in-house experts across ads, email, website, and content',
-  'Weekly Strategic Support Call — workshops, trainings, and big-picture growth topics',
-  'Community of 600+ Shopify founders sharing wins, tools, and strategies',
-  'Tools library — templates, worksheets, swipe files, and calculators built from real client work',
-  'New resources added regularly, pulled directly from our coaching sessions',
+  'Every Growth Made Simple playbook — Meta, Email, Shopify, Branding, Google Ads, Content & more',
+  'Weekly Implementation Call — live Q&A with our in-house experts',
+  'Weekly Strategic Support Call — workshops and big-picture growth training',
+  'Community of 600+ founders building alongside you',
+  'Full tools library — templates, swipe files, calculators',
+  'New resources added continuously from real client work',
 ]
 
 const proIncludes = [
   'Everything in Bloom',
-  'Monthly 1-on-1 coaching call with a dedicated Shopanova growth coach',
-  'Custom growth roadmap built for your specific store in week one',
-  'Message your coach directly between calls',
+  'Monthly 1-on-1 coaching with a dedicated growth coach',
+  'A custom growth roadmap built for your store in week one',
+  'Direct access to message your coach between calls',
   'Quarterly account audit and roadmap refresh',
 ]
 
@@ -40,13 +40,12 @@ export default function BloomSection() {
 
         {/* Header */}
         <div className="text-center max-w-2xl mx-auto mb-14 reveal">
-          <div className="eyebrow mb-4">The Program</div>
+          <div className="eyebrow mb-4">THE PROGRAM</div>
           <h2 className="h2 text-near-black mb-4">
-            Introducing the{' '}
-            <span className="italic text-forest">Bloom Program</span>
+            Everything You Need to Install the System
           </h2>
           <p className="body-lg text-gray-500">
-            The exact playbooks, expert coaching calls, and founder community you need to grow your Shopify store predictably — on your own terms, at your own pace.
+            The complete Growth Made Simple System, the experts to help you implement it, and a community of founders building right alongside you. For a fraction of what you've spent on things that didn't work.
           </p>
         </div>
 
@@ -58,13 +57,13 @@ export default function BloomSection() {
             <div className="eyebrow mb-3">Most Popular</div>
             <h3 className="h3 text-near-black mb-2">Bloom</h3>
             <p className="body-sm text-gray-500 mb-4">
-              Self-directed. Expert-supported. Community-powered. For founders doing $5k–$50k/month who are ready to learn and implement the right system.
+              The full system, self-directed with expert support. For founders ready to learn it and build it.
             </p>
             <div className="flex items-baseline gap-2 mb-1">
               <span className="h2 text-near-black" style={{ fontFamily: 'var(--font-display)' }}>$497</span>
               <span className="body-md text-gray-400">/month</span>
             </div>
-            <p className="body-sm text-gray-400 mb-6">Or $4,970/year — 2 months free, save $994</p>
+            <p className="body-sm text-gray-400 mb-6">Or $4,970/year — 2 months free</p>
             <div className="rule mb-6" />
             <ul className="space-y-3 mb-8">
               {coreIncludes.map((item, i) => (
@@ -80,6 +79,10 @@ export default function BloomSection() {
             <a href="https://shopanova.co/join" className="btn btn-forest w-full justify-center">
               Join Bloom — $497/mo →
             </a>
+            <p className="body-sm text-center text-gray-400 mt-2">
+              Not sure if it's the right fit?{' '}
+              <a href="/talk" className="underline hover:text-forest-dk transition-colors">Talk to our team →</a>
+            </p>
             <p className="body-sm text-center text-gray-400 mt-3">3-day grace period · 60-day guarantee</p>
           </div>
 
@@ -88,13 +91,13 @@ export default function BloomSection() {
             <div className="eyebrow mb-3" style={{ color: '#C9CBC3' }}>For Faster Results</div>
             <h3 className="h3 mb-2" style={{ color: 'white', fontFamily: 'var(--font-display)' }}>Bloom Pro</h3>
             <p className="body-sm mb-4" style={{ color: 'rgba(255,255,255,0.5)' }}>
-              Everything in Core, plus a dedicated coach who builds your custom roadmap and meets with you monthly. For founders doing $30k–$100k/month who want personalized direction.
+              Everything in Bloom, plus a dedicated coach to build and guide your plan. For founders who want a personal expert in their corner.
             </p>
             <div className="flex items-baseline gap-2 mb-1">
               <span className="h2" style={{ color: 'white', fontFamily: 'var(--font-display)' }}>$1,500</span>
               <span className="body-md" style={{ color: 'rgba(255,255,255,0.35)' }}>/month</span>
             </div>
-            <p className="body-sm mb-6" style={{ color: 'rgba(255,255,255,0.3)' }}>Or $15,000/year — 2 months free, save $3,000</p>
+            <p className="body-sm mb-6" style={{ color: 'rgba(255,255,255,0.3)' }}>Or $15,000/year — 2 months free</p>
             <div className="mb-6" style={{ width: '40px', height: '1px', background: 'rgba(255,255,255,0.15)' }} />
             <ul className="space-y-3 mb-8">
               {proIncludes.map((item, i) => (
@@ -110,15 +113,20 @@ export default function BloomSection() {
             <a href="https://shopanova.co/join-pro" className="btn btn-white w-full justify-center">
               Apply for Bloom Pro →
             </a>
-            <p className="body-sm text-center mt-3" style={{ color: 'rgba(255,255,255,0.25)' }}>Limited spots available · 3-day grace period</p>
+            <p className="body-sm text-center mt-3" style={{ color: 'rgba(255,255,255,0.25)' }}>Limited spots · 3-day grace period</p>
           </div>
 
         </div>
 
+        {/* Affordability line */}
+        <p className="text-center body-md text-gray-500 mb-14">
+          For less than the cost of a single freelancer project, you get the entire system and the experts to help you install it.
+        </p>
+
         {/* Guarantees */}
         <div className="reveal">
           <div className="text-center mb-8">
-            <div className="eyebrow" style={{ color: '#7B897C' }}>Risk-Free — We Mean It</div>
+            <div className="eyebrow" style={{ color: '#7B897C' }}>RISK-FREE — WE MEAN IT</div>
           </div>
           <div className="grid md:grid-cols-3 gap-5">
             {guarantees.map((g, i) => (

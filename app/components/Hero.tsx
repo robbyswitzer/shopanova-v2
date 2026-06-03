@@ -13,21 +13,20 @@ export default function Hero() {
 
           {/* Left: Copy */}
           <div>
-            <div className="eyebrow mb-5 fade-up">Hello and Welcome to Shopanova!</div>
+            <div className="eyebrow mb-5 fade-up">THE GROWTH MADE SIMPLE SYSTEM</div>
 
             <h1 className="h1 text-near-black mb-6 fade-up delay-1">
-              Where Shopify Founders{' '}
-              <span className="italic text-forest">Boost Sales, Reclaim Family Time,</span>{' '}
-              And Build Lasting Wealth
+              Finally — A Proven Way to Make Your Shopify Store{' '}
+              <span className="italic text-forest">Actually Work.</span>
             </h1>
 
             <p className="body-lg text-gray-600 mb-8 fade-up delay-2">
-              Without relying on luck, shady agencies, or watching countless YouTube tutorials.
+              Stop guessing. Stop piecing together tactics that don't add up. Get the exact system behind $720M in sales and 600+ stores — and the help to install it into your own. So you're in control, and it's finally working.
             </p>
 
             <div className="flex flex-wrap gap-3 mb-10 fade-up delay-3">
               <a href="#masterclass" className="btn btn-forest btn-lg">
-                Watch Our Free Masterclass →
+                Watch the Free Masterclass →
               </a>
               <a href="#how-it-works" className="btn btn-outline btn-lg">
                 See How It Works
@@ -86,12 +85,12 @@ export default function Hero() {
         <div className="container">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-8">
-              <div className="eyebrow mb-3" style={{ color: '#C9CBC3' }}>Free Training</div>
+              <div className="eyebrow mb-3" style={{ color: '#C9CBC3' }}>FREE TRAINING</div>
               <h2 className="h2 mb-3" style={{ color: 'white', fontFamily: 'var(--font-display)' }}>
-                Watch the Free Masterclass
+                See the System That's Built $720M in Store Sales
               </h2>
               <p className="body-lg" style={{ color: 'rgba(255,255,255,0.6)' }}>
-                Discover the Growth Made Simple process we've used to turn 100k-a-year brands into 100k-a-month powerhouses.
+                In this free masterclass, we break down the exact Growth Made Simple System — the same one we've validated across $100M in ad spend and 600+ Shopify stores over 11 years. No theory. No hype. Just the system that works.
               </p>
             </div>
 
@@ -122,7 +121,7 @@ export default function Hero() {
                 Join Bloom After Watching →
               </a>
               <p className="body-sm mt-3" style={{ color: 'rgba(255,255,255,0.35)' }}>
-                $497/month · 60-day guarantee · Cancel anytime
+                $497/month · 60-day guarantee · cancel anytime
               </p>
             </div>
           </div>

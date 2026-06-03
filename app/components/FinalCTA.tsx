@@ -22,24 +22,22 @@ export default function FinalCTA() {
 
             {/* Right: copy */}
             <div className="p-10 flex flex-col justify-center">
-              <div className="eyebrow mb-4">Ready to Grow?</div>
               <h2 className="h2 text-near-black mb-4">
-                Start With the<br />
-                <span className="italic text-forest">Free Masterclass</span>
+                Ready to See It Work?
               </h2>
               <p className="body-md text-gray-500 mb-6">
-                Watch our free training and see the exact process we use to turn Shopify stores into predictable, profitable growth engines. No pitch. No fluff. Just the system.
+                Start with the free masterclass. See the exact system, understand how it fits your store, and decide for yourself.
               </p>
               <div className="space-y-3">
                 <a href="#masterclass" className="btn btn-forest btn-lg w-full justify-center">
-                  Watch Free Masterclass →
+                  Watch the Free Masterclass →
                 </a>
                 <a href="#bloom" className="btn btn-outline w-full justify-center">
-                  Join Bloom — Starting at $497/mo
+                  Join Bloom — $497/mo
                 </a>
               </div>
               <p className="body-sm text-center text-gray-400 mt-4">
-                60-day guarantee · 3-day grace period · Cancel anytime
+                60-day guarantee · 3-day grace period · cancel anytime
               </p>
             </div>
 

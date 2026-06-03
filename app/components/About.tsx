@@ -9,22 +9,17 @@ export default function About() {
 
           {/* Left: Copy */}
           <div className="reveal">
-            <div className="eyebrow mb-4">Our Story</div>
+            <div className="eyebrow mb-4">WHO'S BEHIND IT</div>
             <h2 className="h2 text-near-black mb-6">
-              Built By Founders,<br />
-              <span className="italic text-forest">For Founders</span>
+              The System Comes From the Trenches
             </h2>
 
             <p className="body-lg text-gray-600 mb-5">
-              Robby Switzer and Daniel Stafford started Shopanova 11 years ago in Homer, Alaska. What began as a hands-on marketing operation grew into something much bigger — a community and education platform built to give every Shopify founder access to the same strategies that helped us generate $720M+ in client revenue.
-            </p>
-
-            <p className="body-md text-gray-500 mb-5">
-              We've worked across 21 eComm niches, served 600+ brands, and spent over a decade refining what actually works. The Bloom program is the result of all of that — packaged into a system any motivated founder can follow.
+              Shopanova has spent 11 years in the weeds of real Shopify stores — managing over $100M in ad spend and generating more than $720M in sales across 600+ brands and 21 niches. The Growth Made Simple System isn't theory. It's everything that actually worked, refined over a decade and packaged so any founder can follow it.
             </p>
 
             <p className="body-md text-gray-500 mb-8">
-              We built Bloom because we believe every founder with a great product deserves a clear path to grow — without burning out, spending blindly, or feeling alone. We've been there. We know what it costs. And we built the program we wish we'd had.
+              Founders Robby Switzer and Daniel Stafford built Bloom to put that system in the hands of the founders who need it most — the ones with a great product and the drive to make it work.
             </p>
 
             {/* Signatures */}
@@ -74,25 +69,6 @@ export default function About() {
 
         </div>
 
-        {/* Family / freedom section */}
-        <div className="mt-16 grid md:grid-cols-2 gap-10 items-center reveal">
-          <img
-            src={IMG.family_autumn}
-            alt="The Switzer family"
-            className="w-full rounded-2xl object-cover shadow-md"
-            style={{ maxHeight: '360px', objectPosition: 'center top' }}
-          />
-          <div>
-            <div className="eyebrow mb-3">Why This Matters To Us</div>
-            <h3 className="h3 text-near-black mb-4">Freedom Is The Point</h3>
-            <p className="body-md text-gray-500 mb-4">
-              Between us, we have 9 kids. We know what it means to want a business that works for your life — not one that consumes it. A business that creates predictable income, protects your peace, and gives you more time with the people you love.
-            </p>
-            <p className="body-md text-gray-500">
-              That's what Bloom is built to help you create. Not just a bigger store — a better life.
-            </p>
-          </div>
-        </div>
 
       </div>
     </section>

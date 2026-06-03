@@ -1,10 +1,10 @@
 import { IMG } from '../images'
 
 const stats = [
-  { num: '$720M+', label: 'Client Revenue Generated' },
-  { num: '600+', label: 'Brands Served' },
-  { num: '21', label: 'eComm Niches' },
-  { num: '11 Yrs', label: 'In Business' },
+  { num: '$720M+', label: 'Store Sales Generated' },
+  { num: '$100M+', label: 'Ad Spend Managed' },
+  { num: '600+', label: 'Stores Grown' },
+  { num: '11 Yrs', label: 'Proven & Refined' },
 ]
 
 const pressLogos = [

@@ -3,24 +3,24 @@ import { IMG } from '../images'
 const traps = [
   {
     num: '01',
-    title: 'You\'re solving strategic problems with tactical fixes.',
-    body: 'Most founders think growth is about running better ads or finding the right creative. But without the right system underneath — the right economics, offer structure, and acquisition model — more traffic just means more wasted spend.',
+    title: "You're chasing tactics instead of building a system.",
+    body: "Better ads. New creative. Another app. But tactics without a system underneath just burn money. Real growth comes from understanding how acquisition, conversion, and retention work together — and almost nobody teaches you that.",
   },
   {
     num: '02',
-    title: 'Your income is in the hands of someone who doesn\'t understand your brand.',
-    body: 'You\'ve placed your hopes in freelancers or agencies who don\'t truly understand what you sell, who you sell it to, or why customers buy. They optimize for metrics, not for your business.',
+    title: "You've been outsourcing the thing you most need to understand.",
+    body: "When you hand your growth to someone else and don't understand it yourself, you're not in control — you're hoping. The founders who win are the ones who learn how the machine actually works, so they can direct it.",
   },
   {
     num: '03',
-    title: 'Nobody ever taught you how to actually run a profitable store.',
-    body: 'You started with a great product and a dream. But nobody handed you a clear system for ads, email, conversion, and retention — so you\'ve been figuring it out the hard way, alone.',
+    title: "Nobody ever gave you the validated playbook.",
+    body: "You've got a great product and the drive to make it work. What you've never had is the proven, step-by-step system the best stores use — and someone in your corner to help you put it in place.",
   },
 ]
 
 export default function PainSection() {
   return (
-    <section id="about" className="section bg-white">
+    <section className="section bg-white">
       <div className="container">
         <div className="grid md:grid-cols-2 gap-16 items-center">
 
@@ -44,20 +44,10 @@ export default function PainSection() {
 
           {/* Right: Copy */}
           <div className="order-1 md:order-2 reveal">
-            <div className="eyebrow mb-4">Can We Be Real For a Second?</div>
+            <div className="eyebrow mb-4">WHY IT HASN'T CLICKED YET</div>
             <h2 className="h2 text-near-black mb-4">
-              Business Can Be Hard.
+              Three Reasons Your Store Isn't Growing The Way It Should
             </h2>
-            <p className="body-lg text-gray-600 mb-8">
-              We've all been down the endless hole of free content and paid "opportunities" that never seem to move the needle. The hustle quickly sours the passion and dream of building something that creates real freedom for your family.
-            </p>
-            <p className="body-md text-gray-600 mb-10 italic border-l-4 pl-4" style={{ borderColor: '#C9CBC3' }}>
-              "I pretty much hated myself when I canceled lunch with my son on his fifth birthday because I was too busy trying to fix the business. I was frustrated, overwhelmed, guilty, and just flat-out sad."
-              <br /><br />
-              <span className="not-italic font-semibold text-near-black">— Robby Switzer, Co-Founder</span>
-            </p>
-
-            <div className="eyebrow mb-6" style={{ color: '#7B897C' }}>Three Traps Are Holding You Back</div>
 
             <div className="space-y-6">
               {traps.map((trap, i) => (
@@ -73,7 +63,7 @@ export default function PainSection() {
 
             <div className="mt-8 p-5 rounded-xl" style={{ background: 'rgba(82,91,70,0.06)', border: '1px solid rgba(82,91,70,0.12)' }}>
               <p className="body-md text-near-black font-medium">
-                And this isn't what you envisioned for yourself, your business, or your family — but all of that is about to change.
+                That's exactly what we built Bloom to fix.
               </p>
             </div>
           </div>

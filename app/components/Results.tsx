@@ -42,13 +42,12 @@ export default function Results() {
 
         {/* Header */}
         <div className="text-center max-w-xl mx-auto mb-14 reveal">
-          <div className="eyebrow mb-4">Real Results</div>
+          <div className="eyebrow mb-4">REAL FOUNDERS, REAL TRACTION</div>
           <h2 className="h2 text-near-black mb-4">
-            What Our Members
-            <br /><span className="italic text-forest">Are Saying</span>
+            This Is What "Finally Working" Looks Like
           </h2>
           <p className="body-md text-gray-500">
-            These aren't cherry-picked outliers. This is what happens when founders with great products finally get the right system.
+            Not vanity metrics. Real stores, real founders, real momentum — including the ones who got so dialed in they shipped more orders than they ever imagined.
           </p>
         </div>
 
