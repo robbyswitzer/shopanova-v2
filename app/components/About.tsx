@@ -15,11 +15,11 @@ export default function About() {
             </h2>
 
             <p className="body-lg text-gray-600 mb-5">
-              Shopanova has spent 11 years in the weeds of real Shopify stores — managing over $100M in ad spend and generating more than $720M in sales across 600+ brands and 21 niches. The Growth Made Simple System isn't theory. It's everything that actually worked, refined over a decade and packaged so any founder can follow it.
+              Shopanova has spent 11 years in the weeds of real Shopify stores, managing over $100M in ad spend and generating more than $720M in sales across 600+ brands and 21 niches. The Growth Made Simple System isn't theory. It's everything that actually worked, refined over a decade and packaged so any founder can follow it.
             </p>
 
             <p className="body-md text-gray-500 mb-8">
-              Founders Robby Switzer and Daniel Stafford built Bloom to put that system in the hands of the founders who need it most — the ones with a great product and the drive to make it work.
+              Founders Robby Switzer and Daniel Stafford built Bloom to put that system in the hands of the founders who need it most: the ones with a great product and the drive to make it work.
             </p>
 
             {/* Signatures */}

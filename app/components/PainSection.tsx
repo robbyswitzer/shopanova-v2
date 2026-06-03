@@ -4,17 +4,17 @@ const traps = [
   {
     num: '01',
     title: "You're chasing tactics instead of building a system.",
-    body: "Better ads. New creative. Another app. But tactics without a system underneath just burn money. Real growth comes from understanding how acquisition, conversion, and retention work together — and almost nobody teaches you that.",
+    body: "Better ads. New creative. Another app. But tactics without a system underneath just burn money. Real growth comes from understanding how acquisition, conversion, and retention work together, and almost nobody teaches you that.",
   },
   {
     num: '02',
     title: "You've been outsourcing the thing you most need to understand.",
-    body: "When you hand your growth to someone else and don't understand it yourself, you're not in control — you're hoping. The founders who win are the ones who learn how the machine actually works, so they can direct it.",
+    body: "When you hand your growth to someone else and don't understand it yourself, you're not in control. You're hoping. The founders who win are the ones who learn how the machine actually works, so they can direct it.",
   },
   {
     num: '03',
     title: "Nobody ever gave you the validated playbook.",
-    body: "You've got a great product and the drive to make it work. What you've never had is the proven, step-by-step system the best stores use — and someone in your corner to help you put it in place.",
+    body: "You've got a great product and the drive to make it work. What you've never had is the proven, step-by-step system the best stores use, plus someone in your corner to help you put it in place.",
   },
 ]
 

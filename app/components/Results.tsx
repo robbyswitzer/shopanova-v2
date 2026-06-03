@@ -47,7 +47,7 @@ export default function Results() {
             This Is What "Finally Working" Looks Like
           </h2>
           <p className="body-md text-gray-500">
-            Not vanity metrics. Real stores, real founders, real momentum — including the ones who got so dialed in they shipped more orders than they ever imagined.
+            Not vanity metrics. Real stores, real founders, real momentum. Including the ones who got so dialed in they shipped more orders than they ever imagined.
           </p>
         </div>
 

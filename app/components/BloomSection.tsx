@@ -1,9 +1,9 @@
 const coreIncludes = [
-  'Every Growth Made Simple playbook — Meta, Email, Shopify, Branding, Google Ads, Content & more',
-  'Weekly Implementation Call — live Q&A with our in-house experts',
-  'Weekly Strategic Support Call — workshops and big-picture growth training',
+  'Every Growth Made Simple playbook: Meta, Email, Shopify, Branding, Google Ads, Content & more',
+  'Weekly Implementation Call: live Q&A with our in-house experts',
+  'Weekly Strategic Support Call: workshops and big-picture growth training',
   'Community of 600+ founders building alongside you',
-  'Full tools library — templates, swipe files, calculators',
+  'Full tools library: templates, swipe files, calculators',
   'New resources added continuously from real client work',
 ]
 
@@ -19,17 +19,17 @@ const guarantees = [
   {
     icon: '3',
     label: 'Day Grace Period',
-    desc: 'Cancel for any reason within your first 3 days and receive a full refund — no questions asked.',
+    desc: 'Cancel for any reason within your first 3 days and receive a full refund. No questions asked.',
   },
   {
     icon: '60',
     label: 'Day Guarantee',
-    desc: 'Do the work — attend 4 calls and complete your action steps. If you still don\'t see results, we\'ll refund you in full.',
+    desc: 'Do the work: attend 4 calls and complete your action steps. If you still don\'t see results, we\'ll refund you in full.',
   },
   {
     icon: '⏸',
     label: 'Hardship Pause',
-    desc: 'Family emergency or medical hardship? Pause your membership for up to 3 months. Life happens — we\'ve got you.',
+    desc: 'Family emergency or medical hardship? Pause your membership for up to 3 months. Life happens. We\'ve got you.',
   },
 ]
 
@@ -63,7 +63,7 @@ export default function BloomSection() {
               <span className="h2 text-near-black" style={{ fontFamily: 'var(--font-display)' }}>$497</span>
               <span className="body-md text-gray-400">/month</span>
             </div>
-            <p className="body-sm text-gray-400 mb-6">Or $4,970/year — 2 months free</p>
+            <p className="body-sm text-gray-400 mb-6">Or $4,970/year (2 months free)</p>
             <div className="rule mb-6" />
             <ul className="space-y-3 mb-8">
               {coreIncludes.map((item, i) => (
@@ -77,7 +77,7 @@ export default function BloomSection() {
               ))}
             </ul>
             <a href="https://shopanova.co/join" className="btn btn-forest w-full justify-center">
-              Join Bloom — $497/mo →
+              Join Bloom · $497/mo →
             </a>
             <p className="body-sm text-center text-gray-400 mt-2">
               Not sure if it's the right fit?{' '}
@@ -97,7 +97,7 @@ export default function BloomSection() {
               <span className="h2" style={{ color: 'white', fontFamily: 'var(--font-display)' }}>$1,500</span>
               <span className="body-md" style={{ color: 'rgba(255,255,255,0.35)' }}>/month</span>
             </div>
-            <p className="body-sm mb-6" style={{ color: 'rgba(255,255,255,0.3)' }}>Or $15,000/year — 2 months free</p>
+            <p className="body-sm mb-6" style={{ color: 'rgba(255,255,255,0.3)' }}>Or $15,000/year (2 months free)</p>
             <div className="mb-6" style={{ width: '40px', height: '1px', background: 'rgba(255,255,255,0.15)' }} />
             <ul className="space-y-3 mb-8">
               {proIncludes.map((item, i) => (
@@ -120,13 +120,13 @@ export default function BloomSection() {
 
         {/* Affordability line */}
         <p className="text-center body-md text-gray-500 mb-14">
-          For less than the cost of a single freelancer project, you get the entire system and the experts to help you install it.
+          For less than the cost of a single freelancer project, you get the entire system plus the experts to help you install it.
         </p>
 
         {/* Guarantees */}
         <div className="reveal">
           <div className="text-center mb-8">
-            <div className="eyebrow" style={{ color: '#7B897C' }}>RISK-FREE — WE MEAN IT</div>
+            <div className="eyebrow" style={{ color: '#7B897C' }}>RISK-FREE. WE MEAN IT.</div>
           </div>
           <div className="grid md:grid-cols-3 gap-5">
             {guarantees.map((g, i) => (

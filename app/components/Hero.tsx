@@ -16,12 +16,12 @@ export default function Hero() {
             <div className="eyebrow mb-5 fade-up">THE GROWTH MADE SIMPLE SYSTEM</div>
 
             <h1 className="h1 text-near-black mb-6 fade-up delay-1">
-              Finally — A Proven Way to Make Your Shopify Store{' '}
+              Finally: A Proven Way to Make Your Shopify Store{' '}
               <span className="italic text-forest">Actually Work.</span>
             </h1>
 
             <p className="body-lg text-gray-600 mb-8 fade-up delay-2">
-              Stop guessing. Stop piecing together tactics that don't add up. Get the exact system behind $720M in sales and 600+ stores — and the help to install it into your own. So you're in control, and it's finally working.
+              Stop guessing. Stop piecing together tactics that don't add up. Get the exact system behind $720M in sales and 600+ stores, plus the help to install it into your own. So you're in control, and it's finally working.
             </p>
 
             <div className="flex flex-wrap gap-3 mb-10 fade-up delay-3">
@@ -66,7 +66,7 @@ export default function Hero() {
                   style={{ background: 'rgba(82,91,70,0.1)', color: '#525B46' }}>↑</div>
                 <div>
                   <div className="font-semibold text-sm leading-tight" style={{ color: '#1B231B' }}>$1.15M in sales</div>
-                  <div className="text-xs text-gray-400">Tag Aloha Co. — up 90% YoY</div>
+                  <div className="text-xs text-gray-400">Tag Aloha Co., up 90% YoY</div>
                 </div>
               </div>
               <div className="absolute -top-4 -right-4 rounded-xl px-4 py-2.5 shadow-lg"
@@ -80,7 +80,7 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Masterclass section — anchored directly below hero */}
+      {/* Masterclass section anchored directly below hero */}
       <div id="masterclass" className="bg-near-black py-16">
         <div className="container">
           <div className="max-w-4xl mx-auto">
@@ -90,7 +90,7 @@ export default function Hero() {
                 See the System That's Built $720M in Store Sales
               </h2>
               <p className="body-lg" style={{ color: 'rgba(255,255,255,0.6)' }}>
-                In this free masterclass, we break down the exact Growth Made Simple System — the same one we've validated across $100M in ad spend and 600+ Shopify stores over 11 years. No theory. No hype. Just the system that works.
+                In this free masterclass, we break down the exact Growth Made Simple System: the same one we've validated across $100M in ad spend and 600+ Shopify stores over 11 years. No theory. No hype. Just the system that works.
               </p>
             </div>
 

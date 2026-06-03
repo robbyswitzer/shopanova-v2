@@ -33,7 +33,7 @@ export default function FinalCTA() {
                   Watch the Free Masterclass →
                 </a>
                 <a href="#bloom" className="btn btn-outline w-full justify-center">
-                  Join Bloom — $497/mo
+                  Join Bloom · $497/mo
                 </a>
               </div>
               <p className="body-sm text-center text-gray-400 mt-4">

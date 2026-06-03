@@ -4,7 +4,7 @@ import { useState } from 'react'
 const faqs = [
   {
     q: 'Who is Bloom for?',
-    a: 'Bloom is built for Shopify founders doing $5k–$100k/month who have a validated product but need the right system to grow predictably. If you\'re coachable, willing to implement, and tired of guessing — Bloom is for you. Our best members are self-directed go-getters who show up, do the work, and use the community and calls to get unstuck fast.',
+    a: 'Bloom is built for Shopify founders doing $5k–$100k/month who have a validated product but need the right system to grow predictably. If you\'re coachable, willing to implement, and tired of guessing, Bloom is for you. Our best members are self-directed go-getters who show up, do the work, and use the community and calls to get unstuck fast.',
   },
   {
     q: 'What do I actually get access to?',
@@ -12,27 +12,27 @@ const faqs = [
   },
   {
     q: 'How is this different from just watching YouTube or buying a course?',
-    a: 'YouTube gives you tactics in isolation. Bloom gives you a system — with expert accountability every week and a community of founders who are ahead of where you are. You also get 11 years of real client frameworks, not theory. The calls are where the real value is: you can ask specific questions about your specific store and get specific answers.',
+    a: 'YouTube gives you tactics in isolation. Bloom gives you a system, with expert accountability every week and a community of founders who are ahead of where you are. You also get 11 years of real client frameworks, not theory. The calls are where the real value is: you can ask specific questions about your specific store and get specific answers.',
   },
   {
     q: 'What if I\'ve been burned by agencies before?',
-    a: 'We hear this constantly. Bloom is not an agency — nobody runs your ads for you. We teach you the system, help you implement it at your own pace, and hold you accountable through calls and community. You own your marketing. You understand why things work. That\'s a very different relationship.',
+    a: 'We hear this constantly. Bloom is not an agency. Nobody runs your ads for you. We teach you the system, help you implement it at your own pace, and hold you accountable through calls and community. You own your marketing. You understand why things work. That\'s a very different relationship.',
   },
   {
     q: 'How quickly will I see results?',
-    a: 'Members who show up to calls, watch the playbooks relevant to their situation, and implement consistently typically see meaningful movement within 30–60 days. Results depend on your product, your market, and how much you put in — but the system works when you do.',
+    a: 'Members who show up to calls, watch the playbooks relevant to their situation, and implement consistently typically see meaningful movement within 30–60 days. Results depend on your product, your market, and how much you put in, but the system works when you do.',
   },
   {
     q: 'What are the guarantees?',
-    a: 'Three-day grace period: cancel for any reason in the first 3 days, full refund. Sixty-day do-the-work guarantee: if you attend at least 4 calls, complete your action steps, and still don\'t see results — we\'ll refund you. Hardship pause: if you or an immediate family member faces a major medical or financial hardship, we\'ll pause your membership for up to 3 months.',
+    a: 'Three-day grace period: cancel for any reason in the first 3 days, full refund. Sixty-day do-the-work guarantee: if you attend at least 4 calls, complete your action steps, and still don\'t see results, we\'ll refund you. Hardship pause: if you or an immediate family member faces a major medical or financial hardship, we\'ll pause your membership for up to 3 months.',
   },
   {
     q: 'What\'s the difference between Bloom and Bloom Pro?',
-    a: 'Bloom is self-directed with full community and group call access — you learn, you implement, you grow. Pro adds a dedicated 1-on-1 coach who builds your personalized growth roadmap in week one, meets with you monthly, and is available for async questions. Pro is best for brands doing $30k+ who want individual attention on top of the program.',
+    a: 'Bloom is self-directed with full community and group call access. You learn, you implement, you grow. Pro adds a dedicated 1-on-1 coach who builds your personalized growth roadmap in week one, meets with you monthly, and is available for async questions. Pro is best for brands doing $30k+ who want individual attention on top of the program.',
   },
   {
     q: 'Do I need a big ad budget?',
-    a: 'No. Many of our best results come from founders who started with modest budgets. The system focuses on making what you already have convert better before scaling spend. We teach you to understand your economics first — AOV, LTV, break-even — so every dollar you spend is intentional.',
+    a: 'No. Many of our best results come from founders who started with modest budgets. The system focuses on making what you already have convert better before scaling spend. We teach you to understand your economics first: AOV, LTV, break-even. So every dollar you spend is intentional.',
   },
 ]
 
