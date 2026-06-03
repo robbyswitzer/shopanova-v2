@@ -4,7 +4,7 @@ import { IMG } from '../images'
 export default function Footer() {
   return (
     <footer style={{ background: '#1B231B' }}>
-      <div className="container py-14">
+      <div className="container pt-20 pb-14">
         <div className="grid md:grid-cols-4 gap-10 mb-12">
           <div className="md:col-span-2">
             <img src={IMG.logo_white} alt="Shopanova" style={{ height: '20px', marginBottom: '16px' }} />

@@ -104,7 +104,7 @@ export default function Results() {
           <div className="flex flex-wrap justify-center items-center gap-10">
             {clientLogos.map((logo, i) => (
               <img key={i} src={logo.src} alt={logo.alt}
-                style={{ height: 36, opacity: 0.5, filter: 'brightness(0)', objectFit: 'contain' }} />
+                style={{ height: 36, opacity: 0.55, objectFit: 'contain' }} />
             ))}
           </div>
         </div>
