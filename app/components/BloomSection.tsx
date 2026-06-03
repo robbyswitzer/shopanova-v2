@@ -11,7 +11,7 @@ const proIncludes = [
   'Everything in Bloom',
   'Monthly 1-on-1 coaching call with a dedicated Shopanova growth coach',
   'Custom growth roadmap built for your specific store in week one',
-  'Priority async DM access to your coach between calls',
+  'Message your coach directly between calls',
   'Quarterly account audit and roadmap refresh',
 ]
 
