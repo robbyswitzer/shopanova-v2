@@ -64,7 +64,7 @@ export default function BloomSection() {
               <span className="h2 text-near-black" style={{ fontFamily: 'var(--font-display)' }}>$497</span>
               <span className="body-md text-gray-400">/month</span>
             </div>
-            <p className="body-sm text-gray-400 mb-6">Or $3,997/year — save $967</p>
+            <p className="body-sm text-gray-400 mb-6">Or $4,970/year — 2 months free, save $994</p>
             <div className="rule mb-6" />
             <ul className="space-y-3 mb-8">
               {coreIncludes.map((item, i) => (
@@ -94,7 +94,7 @@ export default function BloomSection() {
               <span className="h2" style={{ color: 'white', fontFamily: 'var(--font-display)' }}>$1,500</span>
               <span className="body-md" style={{ color: 'rgba(255,255,255,0.35)' }}>/month</span>
             </div>
-            <p className="body-sm mb-6" style={{ color: 'rgba(255,255,255,0.3)' }}>Or $12,000/year — save $6,000</p>
+            <p className="body-sm mb-6" style={{ color: 'rgba(255,255,255,0.3)' }}>Or $15,000/year — 2 months free, save $3,000</p>
             <div className="mb-6" style={{ width: '40px', height: '1px', background: 'rgba(255,255,255,0.15)' }} />
             <ul className="space-y-3 mb-8">
               {proIncludes.map((item, i) => (
