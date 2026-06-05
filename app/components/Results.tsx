@@ -76,7 +76,7 @@ export default function Results() {
                   <img
                     src={`/wins/${name}.jpg`}
                     alt="Customer orders piling up"
-                    className="w-full block object-cover object-top aspect-square"
+                    className="w-full block object-cover object-center aspect-square"
                   />
                 </div>
               ))}
