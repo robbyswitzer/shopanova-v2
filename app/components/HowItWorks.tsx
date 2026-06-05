@@ -62,13 +62,13 @@ export default function HowItWorks() {
                 <div className="w-3 h-3 rounded-full bg-green-400" />
               </div>
               <span className="eyebrow text-sage ml-2" style={{ color: '#7B897C', letterSpacing: '0.1em', fontSize: '10px' }}>
-                Shopify Analytics · Tag Aloha Co.
+                Shopify Analytics
               </span>
             </div>
-            <img src={IMG.shopify_dash} alt="Client Shopify results" className="w-full" />
+            <img src="/photos/how-it-works-client-dash.jpg" alt="Client Shopify analytics dashboard" className="w-full" />
           </div>
           <p className="body-sm text-center text-gray-400 mt-3">
-            Tag Aloha Co.: $1,151,798 in sales, up 90% year over year.
+            Real client results inside Shopify Analytics.
           </p>
         </div>
 

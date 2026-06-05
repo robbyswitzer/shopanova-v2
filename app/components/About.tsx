@@ -53,7 +53,7 @@ export default function About() {
                   className="w-14 h-14 rounded-full object-cover flex-shrink-0" />
                 <div>
                   <div className="body-sm font-semibold" style={{ color: '#1B231B' }}>Robby Switzer</div>
-                  <div className="body-sm text-gray-400">Co-Founder & CEO</div>
+                  <div className="body-sm text-gray-400">Co-Founder</div>
                 </div>
               </div>
               <div className="card p-4 flex items-center gap-3">
@@ -61,7 +61,7 @@ export default function About() {
                   className="w-14 h-14 rounded-full object-cover flex-shrink-0" />
                 <div>
                   <div className="body-sm font-semibold" style={{ color: '#1B231B' }}>Daniel Stafford</div>
-                  <div className="body-sm text-gray-400">Co-Founder & COO</div>
+                  <div className="body-sm text-gray-400">Co-Founder</div>
                 </div>
               </div>
             </div>

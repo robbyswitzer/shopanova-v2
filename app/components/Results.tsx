@@ -6,7 +6,7 @@ const testimonials = [
     name: 'AJ White',
     brand: 'Tag Aloha Co.',
     img: IMG.aj_tag_aloha,
-    result: '$1.15M in sales · up 90%',
+    result: 'Online sales up 90% year over year',
     stars: 5,
   },
   {
@@ -18,7 +18,7 @@ const testimonials = [
     stars: 5,
   },
   {
-    quote: "We have been working with Shopanova since about 2018. Right off the bat we were seeing up to 8x ROAS, averaging 5.5x in our peak swimsuit season. Before them we had no idea what we were doing.",
+    quote: "We have been working with Shopanova for years. Right off the bat we were seeing up to 8x ROAS, averaging 5.5x in our peak swimsuit season. Before them we had no idea what we were doing.",
     name: 'Jessica Rey',
     brand: 'jessicarey.com',
     img: IMG.jessica_rey,
@@ -136,7 +136,17 @@ export default function Results() {
         {/* Trusted by logos */}
         <div className="reveal">
           <p className="eyebrow text-center mb-8" style={{ color: '#C9CBC3' }}>Trusted By</p>
-          <div className="flex flex-wrap justify-center items-center gap-10">
+          {/* Mobile: marquee scroll */}
+          <div className="md:hidden overflow-hidden">
+            <div className="flex items-center gap-12 whitespace-nowrap marquee">
+              {[...clientLogos, ...clientLogos].map((logo, i) => (
+                <img key={i} src={logo.src} alt={logo.alt}
+                  style={{ height: 32, opacity: 0.55, objectFit: 'contain', flexShrink: 0 }} />
+              ))}
+            </div>
+          </div>
+          {/* Desktop: centered wrap */}
+          <div className="hidden md:flex flex-wrap justify-center items-center gap-10">
             {clientLogos.map((logo, i) => (
               <img key={i} src={logo.src} alt={logo.alt}
                 style={{ height: 36, opacity: 0.55, objectFit: 'contain' }} />

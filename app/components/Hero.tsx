@@ -55,8 +55,8 @@ export default function Hero() {
           <div className="relative fade-up delay-2">
             <div className="relative">
               <img
-                src={IMG.family_lupine}
-                alt="The Switzer family"
+                src="/photos/dan-robby-homepage-hero.jpg"
+                alt="Robby and Daniel, co-founders of Shopanova"
                 className="w-full rounded-2xl object-cover shadow-xl"
                 style={{ maxHeight: '520px', objectPosition: 'center top' }}
               />
@@ -65,8 +65,8 @@ export default function Hero() {
                 <div className="w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg"
                   style={{ background: 'rgba(82,91,70,0.1)', color: '#525B46' }}>↑</div>
                 <div>
-                  <div className="font-semibold text-sm leading-tight" style={{ color: '#1B231B' }}>$1.15M in sales</div>
-                  <div className="text-xs text-gray-400">Tag Aloha Co., up 90% YoY</div>
+                  <div className="font-semibold text-sm leading-tight" style={{ color: '#1B231B' }}>145% avg. growth</div>
+                  <div className="text-xs text-gray-400">Students in first 90 days</div>
                 </div>
               </div>
               <div className="absolute -top-4 -right-4 rounded-xl px-4 py-2.5 shadow-lg"

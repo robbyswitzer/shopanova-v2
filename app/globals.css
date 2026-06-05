@@ -101,6 +101,7 @@ body {
 .delay-4 { animation-delay: 0.4s; opacity: 0; }
 .delay-5 { animation-delay: 0.5s; opacity: 0; }
 .marquee  { animation: marquee 30s linear infinite; }
+@media (max-width: 767px) { .marquee { animation-duration: 18s; } }
 
 /* ── Scroll reveal ── */
 .reveal { opacity: 1; transform: translateY(0); transition: opacity 0.65s ease, transform 0.65s ease; }

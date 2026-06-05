@@ -10,7 +10,7 @@ export default function FinalCTA() {
             {/* Left: founder photo */}
             <div className="relative overflow-hidden" style={{ minHeight: '380px' }}>
               <img
-                src={IMG.robby_headshot}
+                src="/photos/ready-to-see-it-work-robby.jpg"
                 alt="Robby Switzer, Co-Founder of Shopanova"
                 className="absolute inset-0 w-full h-full object-cover"
                 style={{ objectPosition: 'center top' }}

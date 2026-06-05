@@ -99,7 +99,7 @@ export default function BloomSection() {
             </div>
             <p className="body-sm mb-6" style={{ color: 'rgba(255,255,255,0.3)' }}>Or $15,000/year (2 months free)</p>
             <div className="mb-6" style={{ width: '40px', height: '1px', background: 'rgba(255,255,255,0.15)' }} />
-            <ul className="space-y-3 mb-8">
+            <ul className="space-y-3 mb-5">
               {proIncludes.map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
                   <span className="mt-0.5 w-4 h-4 rounded-full flex-shrink-0 flex items-center justify-center"
@@ -110,6 +110,13 @@ export default function BloomSection() {
                 </li>
               ))}
             </ul>
+            {/* Annual bonus callout */}
+            <div className="mb-6 px-4 py-3 rounded-xl" style={{ background: 'rgba(201,203,195,0.12)', border: '1px solid rgba(201,203,195,0.25)' }}>
+              <div className="eyebrow mb-1" style={{ color: '#C9CBC3', fontSize: '0.6rem' }}>ANNUAL PLAN BONUS</div>
+              <p className="body-sm" style={{ color: 'rgba(255,255,255,0.8)' }}>
+                Pay annually and get up to 10 hours of done-with-you implementation services included.
+              </p>
+            </div>
             <a href="https://shopanova.co/join-pro" className="btn btn-white w-full justify-center">
               Apply for Bloom Pro →
             </a>
@@ -132,7 +139,13 @@ export default function BloomSection() {
             {guarantees.map((g, i) => (
               <div key={i} className="text-center p-7 rounded-xl"
                 style={{ background: 'rgba(82,91,70,0.04)', border: '1px solid rgba(82,91,70,0.1)' }}>
-                <div className="mb-2" style={{ fontFamily: 'var(--font-display)', fontSize: '2.5rem', fontWeight: 700, color: '#525B46', lineHeight: 1 }}>
+                <div className="mb-2" style={{
+                  fontFamily: g.icon === '⏸' ? 'initial' : 'var(--font-display)',
+                  fontSize: '2.5rem',
+                  fontWeight: g.icon === '⏸' ? 400 : 700,
+                  color: '#525B46',
+                  lineHeight: 1,
+                }}>
                   {g.icon}
                 </div>
                 <div className="eyebrow mb-3" style={{ color: '#7B897C' }}>{g.label}</div>
