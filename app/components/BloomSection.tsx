@@ -28,7 +28,7 @@ const guarantees = [
   },
   {
     icon: (
-      <svg viewBox="0 0 24 24" width="40" height="40" fill="#525B46" aria-hidden="true">
+      <svg viewBox="0 0 24 24" width="40" height="40" fill="#525B46" aria-hidden="true" style={{ display: 'block', margin: '0 auto' }}>
         <rect x="6" y="5" width="4" height="14" rx="1" />
         <rect x="14" y="5" width="4" height="14" rx="1" />
       </svg>
