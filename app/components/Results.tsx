@@ -51,6 +51,42 @@ export default function Results() {
           </p>
         </div>
 
+        {/* Visual proof gallery */}
+        <div className="mb-14 reveal">
+          <div className="flex flex-col md:grid md:grid-cols-[3fr_2fr] md:items-center gap-3">
+            {/* Landscape: featured prominently */}
+            <div
+              className="rounded-2xl overflow-hidden shadow-md"
+              style={{ border: '1px solid rgba(82,91,70,0.1)' }}
+            >
+              <img
+                src="/wins/win-comments.jpg"
+                alt="A customer sharing their store momentum on social media"
+                className="w-full block object-cover object-center aspect-[3/2]"
+              />
+            </div>
+            {/* 2x2 portrait thumbnails */}
+            <div className="grid grid-cols-2 gap-3">
+              {['win-packages-1', 'win-packages-2', 'win-packages-3', 'win-packages-4'].map((name, i) => (
+                <div
+                  key={i}
+                  className="rounded-2xl overflow-hidden shadow-md"
+                  style={{ border: '1px solid rgba(82,91,70,0.1)' }}
+                >
+                  <img
+                    src={`/wins/${name}.jpg`}
+                    alt="Customer orders piling up"
+                    className="w-full block object-cover object-top aspect-square"
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+          <p className="body-sm text-center text-gray-400 mt-4">
+            Real founders. Real orders. Real traction.
+          </p>
+        </div>
+
         {/* Testimonial cards */}
         <div className="grid md:grid-cols-3 gap-5 mb-14">
           {testimonials.map((t, i) => (
