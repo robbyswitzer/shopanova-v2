@@ -27,7 +27,12 @@ const guarantees = [
     desc: 'Do the work: attend 4 calls and complete your action steps. If you still don\'t see results, we\'ll refund you in full.',
   },
   {
-    icon: '⏸',
+    icon: (
+      <svg viewBox="0 0 24 24" width="40" height="40" fill="#525B46" aria-hidden="true">
+        <rect x="6" y="5" width="4" height="14" rx="1" />
+        <rect x="14" y="5" width="4" height="14" rx="1" />
+      </svg>
+    ),
     label: 'Hardship Pause',
     desc: 'Family emergency or medical hardship? Pause your membership for up to 3 months. Life happens. We\'ve got you.',
   },
@@ -140,9 +145,9 @@ export default function BloomSection() {
               <div key={i} className="text-center p-7 rounded-xl"
                 style={{ background: 'rgba(82,91,70,0.04)', border: '1px solid rgba(82,91,70,0.1)' }}>
                 <div className="mb-2" style={{
-                  fontFamily: g.icon === '⏸' ? 'initial' : 'var(--font-display)',
-                  fontSize: '2.5rem',
-                  fontWeight: g.icon === '⏸' ? 400 : 700,
+                  fontFamily: typeof g.icon === 'string' ? 'var(--font-display)' : undefined,
+                  fontSize: typeof g.icon === 'string' ? '2.5rem' : undefined,
+                  fontWeight: typeof g.icon === 'string' ? 700 : undefined,
                   color: '#525B46',
                   lineHeight: 1,
                 }}>
